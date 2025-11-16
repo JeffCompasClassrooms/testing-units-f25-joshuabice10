@@ -1,0 +1,39 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.13.7, pytest-8.4.1, pluggy-1.6.0 -- /opt/homebrew/Cellar/pytest/8.4.1/libexec/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/joshsmacbookpro/Desktop/UtahTech/SE3150/TestingUnits
+collecting ... collected 31 items
+
+test_tictactoe.py::test_tictactoe::test_board_class_get_board_is_correct_length PASSED [  3%]
+test_tictactoe.py::test_tictactoe::test_board_class_get_board_is_dictionary PASSED [  6%]
+test_tictactoe.py::test_tictactoe::test_board_class_set_board PASSED     [  9%]
+test_tictactoe.py::test_tictactoe::test_board_class_set_board_add_and_change_key_value_pair PASSED [ 12%]
+test_tictactoe.py::test_tictactoe::test_board_class_set_board_add_key_value_pair PASSED [ 16%]
+test_tictactoe.py::test_tictactoe::test_board_class_set_board_change_value PASSED [ 19%]
+test_tictactoe.py::test_tictactoe::test_board_initialization PASSED      [ 22%]
+test_tictactoe.py::test_tictactoe::test_book_class_check_out_book PASSED [ 25%]
+test_tictactoe.py::test_tictactoe::test_book_class_check_out_book_already_checked_out PASSED [ 29%]
+test_tictactoe.py::test_tictactoe::test_book_class_initialization PASSED [ 32%]
+test_tictactoe.py::test_tictactoe::test_book_class_put_hold PASSED       [ 35%]
+test_tictactoe.py::test_tictactoe::test_book_class_put_hold_already_on_hold PASSED [ 38%]
+test_tictactoe.py::test_tictactoe::test_book_class_return_book PASSED    [ 41%]
+test_tictactoe.py::test_tictactoe::test_book_class_return_book_not_checked_out PASSED [ 45%]
+test_tictactoe.py::test_tictactoe::test_check_draw_almost_full_board PASSED [ 48%]
+test_tictactoe.py::test_tictactoe::test_check_draw_empty_board PASSED    [ 51%]
+test_tictactoe.py::test_tictactoe::test_check_draw_full_board PASSED     [ 54%]
+test_tictactoe.py::test_tictactoe::test_check_draw_in_progress_board PASSED [ 58%]
+test_tictactoe.py::test_tictactoe::test_create_board PASSED              [ 61%]
+test_tictactoe.py::test_tictactoe::test_draw_board_empty PASSED          [ 64%]
+test_tictactoe.py::test_tictactoe::test_draw_board_empty_faulty PASSED   [ 67%]
+test_tictactoe.py::test_tictactoe::test_draw_board_full PASSED           [ 70%]
+test_tictactoe.py::test_tictactoe::test_draw_board_full_faulty PASSED    [ 74%]
+test_tictactoe.py::test_tictactoe::test_draw_board_in_progress PASSED    [ 77%]
+test_tictactoe.py::test_tictactoe::test_draw_board_in_progress_faulty PASSED [ 80%]
+test_tictactoe.py::test_tictactoe::test_player_class_get_player_name PASSED [ 83%]
+test_tictactoe.py::test_tictactoe::test_player_class_get_symbol PASSED   [ 87%]
+test_tictactoe.py::test_tictactoe::test_player_class_get_wins PASSED     [ 90%]
+test_tictactoe.py::test_tictactoe::test_player_class_inc_wins PASSED     [ 93%]
+test_tictactoe.py::test_tictactoe::test_player_initialization PASSED     [ 96%]
+test_tictactoe.py::test_tictactoe::test_player_initialization_not_equal PASSED [100%]
+
+============================== 31 passed in 0.05s ==============================
